@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  margin-top: 4rem;
+}
+
+p {
+  background-color: lightblue;
+  width: 200px;
+  padding: 25px;
+  margin: 0 auto;
+  border: 25px solid black;
+  font-size: 0.5rem;
+}

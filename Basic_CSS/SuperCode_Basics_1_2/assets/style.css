@@ -1,0 +1,21 @@
+h1 {
+  color: rgb(101, 20, 20);
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h3 {
+  background-color: lightgray;
+  font-weight: lighter;
+}
+
+span {
+  font-style: italic;
+}

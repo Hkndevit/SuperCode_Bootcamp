@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Tahoma-Embedded;
+  src: url(./assets/fonts/Tahoma\ Regular\ font.ttf);
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  background-color: lightgray;
+  font-family: Tahoma-Embedded;
+  color: white;
+  text-shadow: 5px 5px 1px black;
+}
+
+p:nth-of-type(1),
+p:nth-of-type(2) {
+  text-indent: 25px;
+  word-spacing: 10px;
+  padding: 0 20px;
+}
+
+p:nth-of-type(1) {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  text-shadow: 2px 2px 1px lightgray;
+  letter-spacing: 5px;
+  padding: 0 20px;
+}
+
+p:nth-of-type(3),
+p:nth-of-type(4) {
+  line-height: 30px;
+  padding: 0 20px;
+}
+
+p:nth-of-type(3) {
+  background-color: lightgrey;
+}
+
+p:nth-of-type(4) {
+  background-color: darkgrey;
+  color: white;
+}

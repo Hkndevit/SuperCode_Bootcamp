@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  margin-top: 4rem;
+}
+
+article {
+  margin: 0 auto;
+  width: 350px;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+div {
+  background-color: lightgreen;
+  padding: 1rem;
+  border: 1px solid black;
+}

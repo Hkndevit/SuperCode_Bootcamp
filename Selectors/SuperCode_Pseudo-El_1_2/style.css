@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+h3::first-letter {
+  font-size: 3rem;
+  color: #a020f0;
+}
+
+h3:hover::first-letter {
+  color: #00bfff;
+}
+
+li:nth-of-type(3) {
+  text-decoration: line-through;
+}
+
+li:nth-of-type(1)::first-letter,
+li:nth-of-type(2)::first-letter,
+li:nth-of-type(3)::first-letter {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+li:nth-of-type(1)::first-letter {
+  color: #00bfff;
+  text-decoration: overline;
+}
+
+li:nth-of-type(2)::first-letter {
+  text-decoration: underline;
+  color: #32cd32;
+}
+
+li:nth-of-type(3)::first-letter {
+  color: #c71585;
+  text-decoration: line-through;
+}
+
+p {
+  font-weight: 700;
+}
+
+p:nth-of-type(3),
+p:nth-of-type(5) {
+  font-size: 0.7rem;
+}
+
+p:hover::first-line {
+  color: #2e8b57;
+}
+
+p::first-letter {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #00ced1;
+}
+
+p::first-line {
+  color: #483d8b;
+}
+
+p:nth-of-type(1),
+p:nth-of-type(1)::first-line,
+p:nth-of-type(1)::first-letter {
+  color: lightgray;
+  text-indent: 3rem;
+  font-size: 0.8rem;
+}

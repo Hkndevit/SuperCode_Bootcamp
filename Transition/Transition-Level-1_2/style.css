@@ -1,0 +1,22 @@
+section {
+  background-color: lightgray;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  transition: all 4s ease-in-out;
+}
+.red {
+  background-color: red;
+  margin-bottom: 10px;
+}
+
+.green {
+  background-color: green;
+  transition-delay: 2s;
+}
+
+section:hover div {
+  transform: translate(90vw);
+}

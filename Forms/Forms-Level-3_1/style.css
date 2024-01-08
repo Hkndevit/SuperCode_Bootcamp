@@ -1,0 +1,160 @@
+* body {
+  margin: 0;
+  padding: 0;
+}
+
+/* SIGN UP NOW */
+.form {
+  margin-left: 100px;
+  margin-right: 200px;
+  margin-top: 50px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 1px 1px 10px silver;
+}
+.up {
+  color: rgb(255, 255, 255);
+  background-color: #2596be;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.up h1 {
+  margin-left: 50px;
+  margin-bottom: 5px;
+  font-weight: 200;
+  text-shadow: 1px 1px 2px grey;
+}
+.up p {
+  margin-top: 0;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  font-weight: 200;
+  text-shadow: 1px 1px 2px grey;
+}
+
+/* FIRST NAME & ADRESS */
+
+.form1 p {
+  margin-bottom: 0;
+  margin-left: 0;
+  color: #2596be;
+  font-size: 20px;
+}
+form h2 {
+  float: left;
+}
+.form1-2 {
+  background-color: rgb(244, 244, 244);
+  width: 390px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  color: rgb(116, 116, 116);
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.form1-2 input {
+  width: 350px;
+  height: 30px;
+  border: none;
+  border-style: ridge;
+  border-radius: 5px;
+}
+.form1-2 label {
+  margin-top: 15px;
+  margin-bottom: -19px;
+}
+
+/* EMAIL & PHONE */
+
+.form2 p {
+  margin-bottom: 0;
+  margin-left: 0;
+  color: #2596be;
+  font-size: 20px;
+}
+form h2 {
+  float: left;
+}
+.form2-2 {
+  background-color: rgb(244, 244, 244);
+  width: 390px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  color: rgb(116, 116, 116);
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.form2-2 input {
+  width: 350px;
+  height: 30px;
+  border: none;
+  border-style: ridge;
+  border-radius: 5px;
+}
+.form2-2 label {
+  margin-top: 15px;
+  margin-bottom: -19px;
+}
+
+/* PASWORDS */
+
+.form3 p {
+  margin-bottom: 0;
+  margin-left: 0;
+  color: #2596be;
+  font-size: 20px;
+}
+form h2 {
+  float: left;
+}
+.form3-2 {
+  background-color: rgb(244, 244, 244);
+  width: 390px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  color: rgb(116, 116, 116);
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.form3-2 input {
+  width: 350px;
+  height: 30px;
+  border: none;
+  border-style: ridge;
+  border-radius: 5px;
+}
+.form3-2 label {
+  margin-top: 15px;
+  margin-bottom: -19px;
+}
+
+/* BUTTON & AGREE */
+
+.footer button {
+  border: 1px solid black;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #2596be;
+  margin-top: 20px;
+  color: white;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,148 @@
+@font-face {
+  font-family: Lato;
+  src: url(./Fonts/Lato-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d9e8e5;
+  font-family: Lato;
+  width: 100vw;
+}
+
+.nav {
+  background-color: white;
+  margin-top: 0;
+  padding-top: 0;
+  width: 100vw;
+  height: 50px;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.input {
+  padding-right: 20px;
+}
+
+.nav img {
+  padding-left: 20px;
+}
+
+.nav ul li {
+  display: flex;
+  display: inline-block;
+  padding: 10px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+section h2 {
+  margin-top: 60px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.bild1 {
+  background-image: url("./Bilder/ring001.png.jpg");
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  width: 340px;
+  height: 227px;
+  border-radius: 5px;
+}
+
+.bild1 p {
+  padding-right: 5%;
+}
+
+.bild2 {
+  background-image: url("./Bilder/ring002.png.jpg");
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  width: 340px;
+  height: 227px;
+  border-radius: 5px;
+}
+
+.bild2 p {
+  padding-right: 5%;
+}
+
+.bild3 {
+  background-image: url("./Bilder/ring003.png.jpg");
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  width: 340px;
+  height: 227px;
+  border-radius: 5px;
+}
+
+.bild3 p {
+  padding-right: 5%;
+}
+
+.bild4 {
+  background-image: url("./Bilder/ring004.png.jpg");
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  width: 340px;
+  height: 227px;
+  border-radius: 5px;
+}
+
+.bild4 p {
+  padding-right: 5%;
+}
+
+.bild5 {
+  background-image: url("./Bilder/ring005.png.jpg");
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  width: 340px;
+  height: 227px;
+  border-radius: 5px;
+}
+
+.bild5 p {
+  padding-right: 5%;
+}
+
+.bild6 {
+  background-image: url("./Bilder/ring006.png.jpg");
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  width: 340px;
+  height: 227px;
+  border-radius: 5px;
+}
+
+.bild5 p {
+  padding-right: 5%;
+}

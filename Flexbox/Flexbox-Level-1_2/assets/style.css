@@ -1,0 +1,40 @@
+body {
+  background-image: url("./Bilder/bc.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  opacity: 30%;
+}
+
+h1 {
+  margin-left: 5%;
+  display: flex;
+  color: rgb(255, 255, 255);
+  justify-content: flex-start;
+}
+
+.navi {
+  list-style: none;
+  margin-right: 8%;
+  font-size: 1.2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.navi li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navi li a:hover {
+  color: orange;
+  font-weight: bold;
+}

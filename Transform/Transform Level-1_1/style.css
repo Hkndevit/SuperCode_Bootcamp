@@ -1,0 +1,15 @@
+.transform {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(229, 84, 0);
+  border-radius: 20px;
+  margin-left: 250px;
+  margin-top: 100px;
+  transition: all 0.5s linear;
+}
+
+.transform:hover {
+  transform-origin: bottom left;
+  transform: rotate(90deg);
+  scale: 1.5;
+}
